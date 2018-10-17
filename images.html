@@ -1,0 +1,27 @@
+<!-- The grid: four columns -->
+<div class="row">
+  <div class="column">
+    <img src="http://1.bp.blogspot.com/-16tEw1ZriNU/UTHpm7xzHOI/AAAAAAAAFN0/q9_W8OzMcHE/s1600/green+fire.jpg" alt="Green fire" onclick="openImg(this);">
+  </div>
+  <div class="column">
+    <img src="https://www.publicdomainpictures.net/pictures/80000/nahled/blue-flames-of-fire.jpg" alt="Blue fire" onclick="openImg(this);">
+  </div>
+  <div class="column">
+    <img src="https://st.depositphotos.com/1912933/4953/i/950/depositphotos_49539973-stock-photo-orange-fire-flames.jpg" alt="Fire" onclick="openImg(this);">
+  </div>
+  <div class="column">
+    <img src="https://us.123rf.com/450wm/donikz/donikz1610/donikz161000051/67156689-purple-fire-flames-on-a-black-background.jpg?ver=6" alt="Purple fire" onclick="openImg(this);">
+  </div>
+</div>
+
+<!-- The expanding image container -->
+<div class="container">
+  <!-- Close the image -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  <!-- Expanded image -->
+  <img id="expandedImg" style="width:100%">
+
+  <!-- Image text -->
+  <div id="imgtext"></div>
+</div>
